@@ -1,0 +1,204 @@
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: #2b2b2b;
+    color: white;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav li{
+    float: left;
+    padding-left: 20px;
+}
+
+.name{
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-family: 'Lobster Two', cursive;
+}
+
+.pages{
+    float: right;
+    padding-top: 40px;
+    margin-left: 100px;
+    padding-left: 100px;
+}
+
+.active{
+    font-weight: bold;
+    color: white; 
+}
+
+header{
+    margin-top: 100px;
+    margin-bottom: 90px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.card{
+    text-align: center;
+    border: 1px solid lightgrey;
+}
+
+.round-image-1{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-image: url("../assets/John.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.round-image-2{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-image: url("../assets/Jane.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.round-image-3{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-image: url("../assets/Susan.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.round-image-4{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-color: #2b2b2b;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.overlay{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0;
+}
+
+.overlay:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+.overlay2{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0.5);
+    opacity: 1;
+}
+
+.remove{
+    width: 50px;
+    height: 60px;
+    background-image: url("../assets/remove.svg");
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.card h2{
+    font-family: 'Overpass', sans-serif;
+}
+
+.card h3{
+    font-size: medium;
+    font-style: italic;
+    padding-bottom: 15px;
+}
+
+.card p{
+    width: 90%;
+    height: 200px;
+    padding-left: 5%;
+}
+
+.normal-btn{
+    width: 90%;
+    height: 40px;
+    background-color: #2b2b2b;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid #2b2b2b;
+    margin-left: 5%;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    font-family: 'Overpass', sans-serif;
+}
+
+.normal-btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #2b2b2b;
+    border-radius: 5px;
+    border: 2px solid lightgrey;
+}
+
+
+
+.input-ele{
+    width: 90%;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    background-color: lightgrey;
+    color: grey;
+}
+
+.input-ell{
+    width: 90%;
+    height: 105px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    background-color: lightgrey;
+    color: grey;
+}
+
+.input-elll{
+    width: 90%;
+    height: 40px;
+    background-color: #2b2b2b;
+    color: white;
+    border-radius: 5px;
+    border: 10px solid #2b2b2b;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'Lobster Two', cursive;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #2b2b2b;
+    color: white;
+    padding-left: 600px;
+    padding-top: 35px;
+    font-style: italic;
+}
